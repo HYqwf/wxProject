@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+  <view class='login-img'>
+    <image class='login-img' src='../images/loginImg.jpg'></image>
+  </view>
+  <view class='login-form'>
+    <view class='user-in in'>
+        <image src='../images/zh.png' class='imgIn'></image>
+        <label class='login-lb'> 账号:</label>
+        <input type='text' class='login-txt' name='user' bindinput='userIn' placeholder='Please input your name' />
+    </view>
+    <view class='pwd-in in'>
+         <image src='../images/mm.png' class='imgIn'></image>
+        <label class='login-lb'>密码：</label>
+        <input type='password' class='login-txt' name='pwd' bindinput='pwdIn' placeholder='Please input your pwd' />
+    </view>
+    <view class='btn in'>
+        <button bindinput='loginBtn' class='btn-in'>登录</button>
+    </view>
+  </view>
+
+</view>
