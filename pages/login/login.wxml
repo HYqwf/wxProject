@@ -1,0 +1,20 @@
+<view class='container'>
+    <view class='login-img'>
+        <image class='login-img' src='../images/loginImg.jpg'></image>
+    </view>
+    <view class='login-form'>
+        <view class='user-in in'>
+            <image src='../images/zh.png' class='imgIn'></image>
+            <label class='login-lb'> 账号:</label>
+            <input type='text' class='login-txt' name='user' bindinput='userIn' placeholder='Please input your name' />
+        </view>
+        <view class='pwd-in in'>
+            <image src='../images/mm.png' class='imgIn'></image>
+            <label class='login-lb'>密码：</label>
+            <input type='password' class='login-txt' name='pwd' bindinput='pwdIn' placeholder='Please input your pwd' />
+        </view>
+        <view class='btn'>
+            <button form-type='submit' type='primary' bindtap='loginBtn' class='btn-in'>登录</button>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,44 @@
+<!--pages/detail/detail.wxml-->
+<view class='container'>
+    <view class='content'>
+        <view class='course-tit'>《你离架构师有多远》</view>
+        <view class='course-bg'>
+            <text class='headline big-area'>课程背景:</text>
+            <text class='intro'>工作2-3年的同学是否有这样的疑问？ 我做xxx几年了，自己感觉已经没什么可以学习的，每天就只是重复着敲代码，是不是遇到瓶颈了，我接下来该怎么办呢？ 既然问题出现了，那么接下来就要去寻找答案以及解决的方案哦！ 本期的分享，就为大家分析一下，瓶颈在哪里，然后一起来探讨看看接下来怎么办。</text>
+        </view>
+        <view class='course'>
+            <text class='headline'>参与对象：</text>
+            <text>参加工作4年以内的技术童鞋~</text>
+        </view>
+        <view  class='course'>
+            <text class='headline'>培训讲师：</text>
+            <text>张朝东（社区平台 高级经理）</text>
+        </view>
+        <view class='tch-intro'>
+            <text class='headline big-area' >讲师介绍：</text>
+            <text class='intro'>1、13年的web开发经验；
+                2、待过IT部，混过人力资源部，接过企业网站，最后回归正途，专心当码农；
+                3、2009年加入4399，先后负责SNS开放平台、4399游戏吧、手游平台、海量小文件存储系统等的开发和架构设计；
+                4、目前主要主要负责社区平台开发部日常管理，4399游戏吧社区业务，各类服务端系统架构方案评估，4399商学院专业学堂课程挖掘等等。
+            </text>    
+        </view>
+        <view class='course-info'>
+            <view class='course'>
+                <text class='headline'>时间：</text>
+                <text>2017年11月22日 18:40</text>
+            </view>
+            <view class='course'>
+                <text class='headline'>地点：</text>
+                <text>A区一楼大会议室</text>
+            </view>
+            <view class='course'>
+                <text class='headline'>报名截止：</text>
+                <text>2017年11月21日 18:00</text>
+            </view>
+        </view>
+    </view>
+    <view class='btn'>
+        <button class='en-btn bothBtn' size='50'>报名</button>
+        <button class='love-btn bothBtn' size='50'>收藏</button>
+    </view>
+</view>

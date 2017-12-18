@@ -1,0 +1,67 @@
+/* pages/detail/detail.wxss */
+page{
+    /* background-color: #cc9; */
+    height: 100%;
+}
+
+.container{
+    width: 96%; 
+    margin: 0 auto;
+    background-color: #BBDFE2;
+    padding: 10rpx 20rpx; 
+}
+
+.content{
+    display: flex;
+    flex-flow: column nowrap;
+    /* width: 90%; */
+    font-size: 12px;
+}
+.content view{
+    padding: 20rpx 0;
+}
+.course-tit{
+    padding: 5px;
+    font-size: 14px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 1px #E7F2FA solid; */
+}
+
+.intro{
+    display: inline-flex;
+    /* justify-content: center; */
+    margin-left: 40rpx; 
+    /* text-indent: 2rem; */
+}
+.course{
+    border-bottom: 1px #ffc dashed;
+}
+
+.headline{
+    color: #0077AA;
+    /* margin-right: 10px; */
+}
+.big-area{
+    display: flex;
+    border-bottom: 1px #ffc dashed;    
+}
+.btn{
+    margin-bottom: 20px;
+}
+.bothBtn{
+    display: inline-flex;
+    justify-content: center;
+    color: #ffc;
+    height: 32px;
+    align-items: center;
+}
+.en-btn{
+    margin-right: 20rpx;
+    background-color: green;
+    
+}
+.love-btn{
+    background-color: tomato;
+}

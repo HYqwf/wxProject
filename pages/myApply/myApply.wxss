@@ -1,0 +1,47 @@
+page{
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding: 10rpx 0; 
+}
+.course-list{
+    padding: 10px;
+}
+.course-item{
+    /* padding: 0 10px;  */
+    margin-bottom: 20px;
+    border: 2px lightblue solid;
+    background-color: #FDFDEF;
+}
+
+.course-title{
+    display: flex;
+    height: 24px;
+    align-items: center;
+    padding: 5px 10px;
+    color: cadetblue; 
+    border-bottom: 1px #fff solid;
+    background-color: #EFF3F7; 
+}
+.course-intro{
+    text-indent: 1rem;
+    padding: 5px;
+}
+.course-info{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 10px;
+    padding: 5px;
+}
+.c{
+    color: cadetblue;
+}
+
+
+

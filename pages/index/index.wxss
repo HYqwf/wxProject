@@ -1,98 +1,67 @@
-/**index.wxss**/
-/* .userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/*index.wxss**/
+page {
+    background-color: #ccc;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+swiper{
+    height: 200px;
+    width: 100%;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.slide-image{
+    width: 100%;
 }
-
-.usermotto {
-  margin-top: 200px;
-} */
-.page {
-    height: 100%;
-}
-.container {
-    height: 100%;
+.info {
+     /* height: 200px;  */
     display: flex;
     flex-direction: column;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f2f2f2;
 }
 
-.login-img {
-    flex: none;  
+.tit-info{
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    color: tomato;
+    padding-left: 10px;
+    font-size: 0.6em;
+    border-left: 2px tomato solid;
+}
+.tit-info {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.tit-more{
+    margin-right: 5px;
+}
+.content-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-flow: wrap;
 }
 
-.login-img {
+.content-info .content {
+    width: 72px;
+    height: 100px;
+    margin: 10px 0;
+    border: 1px salmon solid;
+}
+.content-info .One {
+    background-color: lightblue;
+}
+.content-info .Two {
+    background-color: lightseagreen;
+}
+.content-info .Three {
+    background-color: orangered;
+}
+.content-info .Four {
+    background-color: lightgoldenrodyellow;
+}
+.map-show{
     width: 750rpx;
 }
-
-.imgIn {
-    width: 32px;
-    height: 32px;
+map{
+    width: 100%;
 }
 
-.login-form {
-    margin-top: 20px;  
-    flex: auto;  
-    height:100%;  
-}
 
-.login-form .in {
-     width: 750rpx; 
-     height: 48px;
-    /* padding: 0 20%; */
-    background-color: #fff;  
-    line-height: 48px;  
-}
-
-.in input{
-    height: 48px;
-    width: 200px;
-    text-align: center;
-    line-height: 48px;
-}
-
-.imgIn{
-    margin-left: 22px;  
-    width: 14px;  
-    height: 14px  
-}
-.login-lb {  
-    margin: 15px 15px 10px;  
-    color: #545454;  
-    font-size: 14px  
-}
-
-.login-txt {
-    flex: block;  
-    float: right;  
-    /* text-align: right;   */
-    /* margin-right: 11px 22px 0 0 ;   */
-    color: #cccccc;  
-    font-size: 14px 
-}
-
-.user-in {
-    border-bottom: 2px #ccc solid;
-}
-
-.btn button {
-    width: 80%;
-    margin: 20px auto;
-    border-radius: 12px; 
-    background-color: green;
-    color: #fff;
-}

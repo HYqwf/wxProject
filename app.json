@@ -1,12 +1,55 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"#fff"
-  }
+    "pages":[
+        "pages/profile/profile",
+        "pages/index/index",
+        "pages/login/login",
+        "pages/detail/detail",
+        
+        "pages/wonderful/wonderful",
+      
+        "pages/logs/logs",
+        "pages/myApply/myApply"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "Training",
+        "navigationBarTextStyle": "#fff",
+        "backgroundColor": "#f2f2f2",
+        "backgroundTextStyle": "dark"
+    },
+    "tabBar": {
+        "backgroundColor": "#f2f2f2",
+        "borderStyle": "black",
+        "selectedColor": "#d81e06",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "pages/images/hp.png",
+                "selectedIconPath": "pages/images/sel_home.png"
+            },
+            {
+                "pagePath": "pages/myApply/myApply",
+                "text": "培训报名",
+                "iconPath": "pages/images/bm.png",
+                "selectedIconPath": "pages/images/sel_bm.png"
+            },
+            {
+                "pagePath": "pages/wonderful/wonderful",
+                "text": "往期精彩",
+                "iconPath": "pages/images/jc.png",
+                "selectedIconPath": "pages/images/sel_jc.png"
+            },
+            {
+                "pagePath": "pages/profile/profile",
+                "text": "我的报名",
+                "iconPath": "pages/images/wd.png",
+                "selectedIconPath": "pages/images/sel_wd.png"
+            }
+        ]
+    },
+    "debug": {
+        "debug": true
+    }
 }

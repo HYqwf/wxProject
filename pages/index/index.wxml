@@ -1,32 +1,30 @@
 <!--index.wxml-->
-<view class="container">
-  <!-- <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+        <swiper-item>
+            <image src="{{item}}" class="slide-image" width="355" height="150" />
+        </swiper-item>
     </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view> -->
-  <view class='login-img'>
-    <image class='login-img' src='../images/loginImg.jpg'></image>
-  </view>
-  <view class='login-form'>
-    <view class='user-in in'>
-        <image src='../images/zh.png' class='imgIn'></image>
-        <label class='login-lb'> 账号:</label>
-        <input type='text' class='login-txt' name='user' bindinput='userIn' placeholder='Please input your name' />
-    </view>
-    <view class='pwd-in in'>
-         <image src='../images/mm.png' class='imgIn'></image>
-        <label class='login-lb'>密码：</label>
-        <input type='password' class='login-txt' name='pwd' bindinput='pwdIn' placeholder='Please input your pwd' />
-    </view>
-    <view class='btn in'>
-        <button bindinput='loginBtn' class='btn-in'>登录</button>
-    </view>
-  </view>
+</swiper>
 
+<view class='info'>
+    <view class='tit-info'>
+        <text class='tit-name'>{{titOne}}</text>
+        <text class='tit-more' bindtap='watchMore'>{{more}}</text>
+    </view>
+    <view class='content-info'>
+        <view class='content One' bindtap='clickMe' data-id='item1'>{{info}}</view>
+        <view class='content Two'  bindtap='clickMe' data-id='item2' > </view>
+        <view class='content Three'  bindtap='clickMe' data-id='item3'> </view>
+        <view class='content Four'  bindtap='clickMe' data-id='item4' > </view>
+    </view>
+    <view class='tit-info'>
+        <text class='tit-name'>{{titTwo}}</text>
+        <text class='tit-more' bindtap='watchMore'>{{more}}</text>
+    </view>
 </view>
+<view class='map-show'>
+    <map></map>
+</view>
+
+   

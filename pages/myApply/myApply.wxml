@@ -1,0 +1,25 @@
+<view class="container">
+    <view class='course-list'>
+        <view class='course-item' wx:for="{{list}}">
+            <view class='course-title'>{{item.tit}}</view>
+            <view class='course-intro' bindtap='viewDetail' data-id='{{item.id}}' data-title="{{item.tit}}">【课程介绍】{{item.intro}}</view>
+            <view class='course-info'>
+                <view>
+                    <text class='c'>时间：</text>
+                    <text>{{item.info.classTime}}</text>
+                </view>
+                <view>
+                    <text class='c'>地点：</text>
+                    <text>{{item.info.classPlace}}</text>
+                </view>
+                <view>
+                    <text class='c'>讲师：</text>
+                    <text>{{item.info.classTeacher}}</text>
+                </view>
+            </view>
+        </view>
+
+   
+    </view>
+
+</view>

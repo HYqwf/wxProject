@@ -1,0 +1,7 @@
+<view class='container'>
+    <view class='userInfo'>头像</view>
+    <view class='profile'></view>
+    <view class='hadCourse'></view>
+    <view class='loveCourse'></view>
+    
+</view>

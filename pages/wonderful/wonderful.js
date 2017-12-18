@@ -1,0 +1,6 @@
+page({
+    data: {
+        userno: '',
+        password: ''
+    }
+})
